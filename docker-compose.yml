@@ -1,0 +1,45 @@
+version: "3.7"
+services:
+    laravel.test:
+        build:
+            context: ./vendor/laravel/sail/runtimes/8.2
+            dockerfile: Dockerfile
+            args:
+                WWWGROUP: "${WWWGROUP}"
+        image: sail-8.2/app
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        ports:
+            - "${APP_PORT:-80}:80"
+            - "${VITE_PORT:-5173}:${VITE_PORT:-5173}"
+        environment:
+            WWWUSER: "${WWWUSER}"
+            LARAVEL_SAIL: 1
+            XDEBUG_MODE: "${SAIL_XDEBUG_MODE:-off}"
+            XDEBUG_CONFIG: "${SAIL_XDEBUG_CONFIG:-client_host=host.docker.internal}"
+            IGNITION_LOCAL_SITES_PATH: "${PWD}"
+        volumes:
+            - ".:/var/www/html"
+        networks:
+            - be-network
+        depends_on:
+            - sql-server
+    sql-server:
+        container_name: sql-server
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        restart: always
+        environment:
+            ACCEPT_EULA: "Y"
+            MSSQL_SA_PASSWORD: "animate@2023"
+        ports:
+            - 1433:1433
+        volumes:
+            - my-volume:/var/opt/mssql
+        networks:
+            - be-network
+networks:
+    be-network:
+        driver: bridge
+volumes:
+    my-volume:
+        driver: local

@@ -63,4 +63,4 @@ jobs:
           app-name: 'animate-be'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8D1E7467F40D470D9E1B7FAD303DB158 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5D3FB9B728DA4731A98264BAA65BF367 }}

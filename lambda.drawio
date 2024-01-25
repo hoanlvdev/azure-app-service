@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T05:02:06.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="rT28jLuKORQ934YbU-rK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T12:15:08.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Tg23_IxRrFcOll5JLHli" version="22.1.21" type="github">
   <diagram name="Trang-1" id="PGPuonrAZV76nMHsHKJV">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vHsS-nZTIobniVrzyw61-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="189" width="710" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="490" y="12.75" width="70" height="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vHsS-nZTIobniVrzyw61-32" source="vHsS-nZTIobniVrzyw61-7" target="vHsS-nZTIobniVrzyw61-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-7" value="AWS&amp;nbsp; API Gateway&lt;br&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="316" y="9" width="82" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-8" value="AWS WAF&lt;br&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="160" y="9" width="82" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry y="18.5" width="40.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vHsS-nZTIobniVrzyw61-32" source="vHsS-nZTIobniVrzyw61-11" target="vHsS-nZTIobniVrzyw61-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vHsS-nZTIobniVrzyw61-32" source="vHsS-nZTIobniVrzyw61-8" target="vHsS-nZTIobniVrzyw61-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-17" value="Amazon RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="630" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vHsS-nZTIobniVrzyw61-32" source="vHsS-nZTIobniVrzyw61-1" target="vHsS-nZTIobniVrzyw61-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-18" value="AWS CloudWatch&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="430" y="131" width="82.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vHsS-nZTIobniVrzyw61-32" source="vHsS-nZTIobniVrzyw61-1" target="vHsS-nZTIobniVrzyw61-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-26" value="" style="group" vertex="1" connectable="0" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="162" y="171" width="150" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="vHsS-nZTIobniVrzyw61-26">
+          <mxGeometry x="-62" y="-50" width="212" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-20" value="WAF Bot Control" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_bot_control;" vertex="1" parent="vHsS-nZTIobniVrzyw61-26">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-22" value="WAF Bot Control&lt;br&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_bad_bot;" vertex="1" parent="vHsS-nZTIobniVrzyw61-26">
+          <mxGeometry y="120" width="78" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-23" value="WAF Rule&lt;br&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_rule;" vertex="1" parent="vHsS-nZTIobniVrzyw61-26">
+          <mxGeometry y="240" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-27" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="600" y="131" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vHsS-nZTIobniVrzyw61-32" source="vHsS-nZTIobniVrzyw61-27" target="vHsS-nZTIobniVrzyw61-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

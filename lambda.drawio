@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T12:15:08.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Tg23_IxRrFcOll5JLHli" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T12:41:56.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GR_wXCi4CV4jnNt3z7TD" version="22.1.21" type="github">
   <diagram name="Trang-1" id="PGPuonrAZV76nMHsHKJV">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vHsS-nZTIobniVrzyw61-35" value="AWS Resource&lt;br&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="740" height="480" as="geometry" />
+        </mxCell>
         <mxCell id="vHsS-nZTIobniVrzyw61-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="20" y="189" width="710" height="511" as="geometry" />
+          <mxGeometry x="20" y="189" width="790" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="vHsS-nZTIobniVrzyw61-34" value="VPC" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
+          <mxGeometry x="410" y="-79" width="380" height="330" as="geometry" />
         </mxCell>
         <mxCell id="vHsS-nZTIobniVrzyw61-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
           <mxGeometry x="490" y="12.75" width="70" height="74.5" as="geometry" />
@@ -20,7 +26,7 @@
           <mxGeometry x="160" y="9" width="82" height="82" as="geometry" />
         </mxCell>
         <mxCell id="vHsS-nZTIobniVrzyw61-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="vHsS-nZTIobniVrzyw61-32">
-          <mxGeometry y="18.5" width="40.5" height="63" as="geometry" />
+          <mxGeometry x="-20" y="18.5" width="40.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="vHsS-nZTIobniVrzyw61-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vHsS-nZTIobniVrzyw61-32" source="vHsS-nZTIobniVrzyw61-11" target="vHsS-nZTIobniVrzyw61-8">
           <mxGeometry relative="1" as="geometry" />
